@@ -1,0 +1,41 @@
+.banner{
+	height: 90vh;
+	width:100%;
+	background: linear-gradient(to right, rgba(255,0,0,0.5),rgba(230,164,75,0.7)),
+         url("https://images.unsplash.com/photo-1573855619003-97b4799dcd8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	            
+	background-size: cover;
+}
+
+.h-100
+{
+	height:100%;
+	width:100%;
+}
+.footer{
+	height: 7vh;
+	widht: 100%;
+	background-color: #E6A44B;
+	text-align: center;
+	padding: 10px;
+}
+
+/* Product card image */
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* Admin */
+.admin{
+	background-image: url("../img/adminbg.png");
+	background-size: cover;
+}
+
+
+/* Users */
+.user{
+	background-image: url("../img/usersbg.png");
+	background-size: cover;
+}
